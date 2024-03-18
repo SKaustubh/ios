@@ -1,14 +1,13 @@
 import React from "react";
 
-const Border = ({ children }) => {
+const Border = () => {
   return (
-    <div className="iphone14">
-      <div className="iphone14-inner">
-        <div className="iphone14-notch"></div>
-        <div className="iphone14-screen">{children}</div>
-        <div className="iphone14-speaker"></div>
-        <div className="iphone14-buttons"></div>
-      </div>
+    <div className="iphone14-home-screen h-screen flex flex-col items-center justify-center">
+      <img
+        src="./public/home-iphone.png"
+        alt="iPhone 14 Home Screen"
+        className="w-full h-full object-cover"
+      />
     </div>
   );
 };

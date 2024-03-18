@@ -1,0 +1,70 @@
+/* App.css */
+.iphone14 {
+    width: 375px; /* iPhone 14 width */
+    height: 812px; /* iPhone 14 height */
+    background-color: #000;
+    border-radius: 50px; /* iPhone 14 rounded corners */
+    position: relative;
+  }
+  
+  .iphone14-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .iphone14-notch {
+    width: 64px; /* Notch width */
+    height: 24px; /* Notch height */
+    background-color: #000;
+    border-radius: 0 0 20px 20px; /* Notch shape */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .iphone14-screen {
+    width: 327px; /* Screen width */
+    height: 600px; /* Screen height */
+    background-color: #fff;
+    border-radius: 20px; /* Screen rounded corners */
+    position: absolute;
+    top: 30px; /* Adjust top position to fit the notch */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .iphone14-speaker {
+    width: 100px; /* Speaker width */
+    height: 8px; /* Speaker height */
+    background-color: #333; /* Speaker color */
+    border-radius: 4px; /* Speaker shape */
+    position: absolute;
+    bottom: 10px; /* Adjust bottom position */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .iphone14-buttons {
+    width: 240px; /* Button panel width */
+    height: 20px; /* Button panel height */
+    position: absolute;
+    bottom: 20px; /* Adjust bottom position */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button styles */
+  .iphone14-buttons div {
+    width: 24px; /* Button width */
+    height: 24px; /* Button height */
+    background-color: #333; /* Button color */
+    border-radius: 50%; /* Button shape */
+  }
+  
